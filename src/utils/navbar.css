@@ -1,0 +1,60 @@
+.nav_container {
+  position: sticky;
+  top: 0;
+  background-color: gray;
+  height: 60px;
+  z-index: 9;
+}
+
+.nav_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav_left {
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.nav_right {
+  margin-right: 30px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_right_bar {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_right_bars {
+  background-color: white;
+  width: 30px;
+  height: 2px;
+  margin: 3px;
+  transition: all 0.5s ease;
+}
+
+.nav_right_bars.active:nth-child(1) {
+  margin: 0px;
+  transform: rotate(45deg);
+}
+
+.nav_right_bars.active:nth-child(2) {
+  margin: 0px;
+  transform: rotate(-45deg);
+}
+
+.nav_right_bars.active:nth-child(3) {
+  opacity: 0;
+}

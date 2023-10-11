@@ -1,0 +1,207 @@
+.b_detail_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b_detail_wrapper {
+  margin-top: 20px;
+  width: 95%;
+  height: 100%;
+}
+
+.b_detail_top {
+  height: 8vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b_detail_title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.b_detail_author {
+  width: 250px;
+}
+
+.b_detail_date {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.del_blog_icon {
+  cursor: pointer;
+  color: red;
+}
+
+.b_detail_bot {
+}
+
+.b_detail_b_top {
+}
+
+.b_detail_blog_img {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.b_detail_blog_jpg {
+  background-color: green;
+  width: 35%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.b_detail_blog_content {
+  text-indent: 10px;
+  margin: 5px;
+}
+
+.b_detail_b_bot {
+  height: 8vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.b_detail_b_fav {
+  width: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b_detail_r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b_detail_r_create {
+  width: 900px;
+  border-bottom: 1px solid blue;
+  outline: none;
+}
+
+.b_detail_r_btn {
+  font-size: 15px;
+  width: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+.b_detail_reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seeMore_btn {
+  cursor: pointer;
+}
+
+.b_detail_review {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.b_detail_user_hover {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 15px;
+  border: 1px solid gray;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.b_detail_user_hover:hover {
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+}
+
+.b_detail_review_img {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.b_detail_review_r {
+  width: 75vw;
+}
+
+@media (max-width: 760px) {
+  .b_detail_wrapper {
+    margin-top: 10px;
+    width: 95%;
+  }
+
+  .b_detail_top {
+    height: 5vh;
+  }
+
+  .b_detail_date {
+    width: 200px;
+
+    font-size: 10px;
+  }
+
+  .del_blog_icon {
+    cursor: pointer;
+    color: red;
+  }
+
+  .b_detail_blog_img {
+    width: 80%;
+    height: 35vh;
+  }
+
+  .b_detail_blog_jpg {
+    width: 85%;
+  }
+
+  .b_detail_b_bot {
+    height: 5vh;
+  }
+
+  .b_detail_r_create {
+    width: 150px;
+  }
+
+  .b_detail_r_btn {
+    font-size: 10px;
+  }
+
+  .b_detail_review_r {
+    margin-left: 10px;
+  }
+}

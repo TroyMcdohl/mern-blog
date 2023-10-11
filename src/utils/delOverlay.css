@@ -1,0 +1,93 @@
+.d_overlay_container {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d_overlay_container.hide {
+  display: none;
+}
+
+.d_overlay_wrapper {
+  background-color: rgba(196, 190, 137, 0.51);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d_overlay_wrap {
+  width: 30%;
+  height: 200px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.d_overlay_top {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.del_title {
+  color: white;
+  font-size: 20px;
+}
+
+.d_overlay_bot {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.d_overlay_bot_left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d_overlay_bot_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.cancel_btn {
+  width: 80px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.del_btn {
+  width: 80px;
+  height: 50px;
+  background-color: red;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .d_overlay_wrap {
+    width: 80%;
+  }
+}

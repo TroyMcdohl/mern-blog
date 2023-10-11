@@ -1,0 +1,9 @@
+.bg_container {
+  background-color: rgba(169, 169, 169, 0.53);
+  width: calc(100vw - 60px);
+  height: calc(100vh - 60px);
+
+  position: fixed;
+  cursor: pointer;
+  z-index: 3;
+}
